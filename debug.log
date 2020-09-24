@@ -125,3 +125,6 @@
 2020-09-24 18:24:09,462 [INFO] Calculating accuracy and F1 score on hold out data set
 2020-09-24 18:24:32,397 [INFO] Calculating accuracy and F1 score on hold out data set
 2020-09-24 18:24:35,212 [INFO] Finished scoring test sample with LR
+2020-09-24 19:11:08,392 [INFO] Downloading train data to ./data/trainSet.csv
+2020-09-24 19:11:11,716 [INFO] Downloading test data to ./data/candidateTestSet.csv
+2020-09-24 19:11:13,450 [INFO] Data downloads finished
