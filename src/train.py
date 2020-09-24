@@ -70,9 +70,6 @@ def train_knn(args):
     
     
     
-    
-    
-    
 def train_lr(args):
     
     logger.info("Reading data")
