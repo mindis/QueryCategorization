@@ -61,7 +61,7 @@ def score_lr(args):
     test_examples=list(df_test['vw_test'].values)   
     
     logger.info("Calculating accuracy and F1 score on hold out data set")    
-    vw = pyvw.vw("-i /home/mindis/model2.vw  -t")
+    vw = pyvw.vw("-i ./models/lr.vw -t")
     pred = [vw.predict(sample) for sample in test_examples]
     
 #     shifting back by one

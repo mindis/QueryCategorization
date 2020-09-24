@@ -135,3 +135,16 @@
 2020-09-24 19:14:29,450 [INFO] Hold out sample accuracy 0.55
 2020-09-24 19:14:29,583 [INFO] Hold out sample f1 score 0.54
 2020-09-24 19:14:29,600 [INFO] Hold out sample sklearn accuracy 0.55
+2020-09-24 20:04:07,447 [INFO] Training Logistic Regression model
+2020-09-24 20:04:07,447 [INFO] Reading data
+2020-09-24 20:04:07,914 [INFO] Lemmatizing and preparing data
+2020-09-24 20:04:18,101 [INFO] Training LR model
+2020-09-24 20:04:18,102 [INFO] --oaa 1419 --random_seed 17 --cache_file ./tmp1 -b 27 -f ./models/lr.vw 
+2020-09-24 20:04:18,118 [INFO] Iteration 0
+2020-09-24 20:04:48,142 [INFO] Iteration 1
+2020-09-24 20:05:38,782 [INFO] Finished model training
+2020-09-24 20:05:38,782 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 20:05:43,193 [INFO] LR holdout accuracy score is 0.79
+2020-09-24 20:05:43,397 [INFO] LR holdout F1 score is 0.78
+2020-09-24 20:06:05,920 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 20:06:08,738 [INFO] Finished scoring test sample with LR
