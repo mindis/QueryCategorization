@@ -105,7 +105,7 @@ def train_lr(args):
     logger.info("Finished model training")
     
     logger.info("Calculating accuracy and F1 score on hold out data set")    
-    vw = pyvw.vw("-i /home/mindis/model2.vw  -t")
+    vw = pyvw.vw("-i ./models/lr.vw  -t")
     pred = [vw.predict(sample) for sample in test_examples]
     logger.info("LR holdout accuracy score is %s", np.round(accuracy_score(df_test.category.values,pred),2))
     logger.info("LR holdout F1 score is %s", np.round(f1_score(df_test.category.values,pred, average='weighted'),2))   
