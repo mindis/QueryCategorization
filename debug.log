@@ -128,3 +128,10 @@
 2020-09-24 19:11:08,392 [INFO] Downloading train data to ./data/trainSet.csv
 2020-09-24 19:11:11,716 [INFO] Downloading test data to ./data/candidateTestSet.csv
 2020-09-24 19:11:13,450 [INFO] Data downloads finished
+2020-09-24 19:13:38,744 [INFO] Training KNN model
+2020-09-24 19:13:39,217 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 19:13:48,746 [INFO] Fitting vectorizer
+2020-09-24 19:13:51,574 [INFO] Scoring 20% holdout sample
+2020-09-24 19:14:29,450 [INFO] Hold out sample accuracy 0.55
+2020-09-24 19:14:29,583 [INFO] Hold out sample f1 score 0.54
+2020-09-24 19:14:29,600 [INFO] Hold out sample sklearn accuracy 0.55
