@@ -1,0 +1,8 @@
+pandas
+numpy
+nltk
+sklearn
+sparse_dot_topn
+vowpalwabbit
+PyYaml
+

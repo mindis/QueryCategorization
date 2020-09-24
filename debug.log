@@ -1,0 +1,127 @@
+2020-09-24 16:14:59,294 [INFO] Contest is starting
+2020-09-24 16:14:59,294 [INFO] creating an instance of auxiliary_module.Auxiliary
+2020-09-24 16:14:59,295 [WARNING] world
+2020-09-24 16:20:03,755 [INFO] Training Logistic Regression model
+2020-09-24 16:20:03,755 [INFO] Reading data
+2020-09-24 16:20:04,238 [INFO] Lemmatizing and preparing data
+2020-09-24 16:20:14,208 [INFO] Training model
+2020-09-24 16:21:07,293 [INFO] Training Logistic Regression model
+2020-09-24 16:21:07,293 [INFO] Reading data
+2020-09-24 16:21:07,742 [INFO] Lemmatizing and preparing data
+2020-09-24 16:21:17,694 [INFO] Training model
+2020-09-24 16:21:17,710 [INFO] Iteration1
+2020-09-24 16:21:33,649 [INFO] Training Logistic Regression model
+2020-09-24 16:21:33,649 [INFO] Reading data
+2020-09-24 16:21:34,112 [INFO] Lemmatizing and preparing data
+2020-09-24 16:21:44,221 [INFO] Training model
+2020-09-24 16:21:44,235 [INFO] Iteration1
+2020-09-24 16:21:50,854 [INFO] Training Logistic Regression model
+2020-09-24 16:21:50,854 [INFO] Reading data
+2020-09-24 16:21:51,328 [INFO] Lemmatizing and preparing data
+2020-09-24 16:22:01,710 [INFO] Training model
+2020-09-24 16:22:01,724 [INFO] Iteration1
+2020-09-24 16:22:37,418 [INFO] Iteration1
+2020-09-24 16:23:09,939 [INFO] Iteration1
+2020-09-24 16:23:41,415 [INFO] Iteration1
+2020-09-24 16:24:15,121 [INFO] Iteration1
+2020-09-24 16:50:24,736 [INFO] Training Logistic Regression model
+2020-09-24 16:50:24,737 [INFO] Reading data
+2020-09-24 16:50:25,208 [INFO] Lemmatizing and preparing data
+2020-09-24 16:50:36,343 [INFO] Training LR model
+2020-09-24 16:50:36,344 [INFO] --oaa 1419 --random_seed 17 --cache_file ./tmp1 -b 27 -f ./models/lr.vw 
+2020-09-24 16:52:08,768 [INFO] Finished model training
+2020-09-24 16:52:08,769 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 16:54:07,214 [INFO] Training Logistic Regression model
+2020-09-24 16:54:07,214 [INFO] Reading data
+2020-09-24 16:54:07,705 [INFO] Lemmatizing and preparing data
+2020-09-24 16:54:18,446 [INFO] Training LR model
+2020-09-24 16:54:18,447 [INFO] --oaa 1419 --random_seed 17 --cache_file ./tmp1 -b 27 -f ./models/lr.vw 
+2020-09-24 16:56:01,186 [INFO] Finished model training
+2020-09-24 16:56:01,187 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 16:56:35,090 [INFO] Training Logistic Regression model
+2020-09-24 16:56:35,090 [INFO] Reading data
+2020-09-24 16:56:35,578 [INFO] Lemmatizing and preparing data
+2020-09-24 16:56:47,067 [INFO] Training LR model
+2020-09-24 16:56:47,068 [INFO] --oaa 1419 --random_seed 17 --cache_file ./tmp1 -b 27 -f ./models/lr.vw 
+2020-09-24 16:56:47,099 [INFO] Iteration 0
+2020-09-24 16:57:20,240 [INFO] Iteration 1
+2020-09-24 16:58:17,718 [INFO] Finished model training
+2020-09-24 16:58:17,718 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 16:58:22,572 [INFO] Holdout accuracy 0.79
+2020-09-24 17:04:10,703 [INFO] Downloading data to {'train_url': 'https://s3-eu-west-1.amazonaws.com/adthena-ds-test/trainSet.csv', 'test_url': 'https://s3-eu-west-1.amazonaws.com/adthena-ds-test/candidateTestSet.txt', 'train_local': './data/trainSet.csv', 'test_local': './data/candidateTestSet.csv', 'score_sim': './data/pred_sim.csv'}
+2020-09-24 17:04:15,319 [INFO] Data download finished
+2020-09-24 17:04:33,148 [INFO] Downloading data to ./data/trainSet.csv
+2020-09-24 17:04:36,911 [INFO] Data download finished
+2020-09-24 17:05:12,180 [INFO] Downloading train data to ./data/trainSet.csv
+2020-09-24 17:05:15,315 [INFO] Downloading test data to ./data/candidateTestSet.csv
+2020-09-24 17:05:15,909 [INFO] Data downloads finished
+2020-09-24 17:06:09,209 [INFO] Fitting vectorizer
+2020-09-24 17:23:10,242 [INFO] Training KNN model
+2020-09-24 17:24:29,609 [INFO] Training KNN model
+2020-09-24 17:24:30,095 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 17:24:39,773 [INFO] Fitting vectorizer
+2020-09-24 17:26:40,611 [INFO] Training KNN model
+2020-09-24 17:26:41,100 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 17:26:51,087 [INFO] Fitting vectorizer
+2020-09-24 17:26:59,350 [INFO] Calculating KNN accuracy and F1 on holdout sample
+2020-09-24 17:27:41,164 [INFO] Training KNN model
+2020-09-24 17:27:41,661 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 17:27:52,304 [INFO] Fitting vectorizer
+2020-09-24 17:28:00,793 [INFO] Calculating KNN accuracy and F1 on holdout sample
+2020-09-24 17:30:03,280 [INFO] Training KNN model
+2020-09-24 17:30:03,764 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 17:30:13,546 [INFO] Fitting vectorizer
+2020-09-24 17:30:20,839 [INFO] Calculating KNN accuracy and F1 score on holdout sample
+2020-09-24 17:30:58,969 [INFO] Hold out sample accuracy 0.55
+2020-09-24 17:32:46,087 [INFO] Training KNN model
+2020-09-24 17:32:46,567 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 17:32:56,646 [INFO] Fitting vectorizer
+2020-09-24 17:33:04,005 [INFO] Calculating KNN accuracy and F1 score on 20% holdout sample
+2020-09-24 17:33:42,972 [INFO] Hold out sample accuracy 0.55
+2020-09-24 17:34:32,196 [INFO] Training KNN model
+2020-09-24 17:34:32,665 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 17:34:42,507 [INFO] Fitting vectorizer
+2020-09-24 17:34:49,951 [INFO] Calculating KNN accuracy and F1 score on 20% holdout sample
+2020-09-24 17:35:30,084 [INFO] Hold out sample accuracy 0.55
+2020-09-24 17:40:11,179 [INFO] Training KNN model
+2020-09-24 17:40:11,678 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 17:40:21,655 [INFO] Fitting vectorizer
+2020-09-24 17:40:29,065 [INFO] Calculating KNN accuracy and F1 score on 20% holdout sample
+2020-09-24 17:41:09,322 [INFO] Hold out sample accuracy 0.55
+2020-09-24 17:41:09,481 [INFO] Hold out sample f1 score 0.54
+2020-09-24 17:41:09,500 [INFO] Hold out sample sklearn accuracy 0.55
+2020-09-24 17:43:23,392 [INFO] Training Logistic Regression model
+2020-09-24 17:43:23,392 [INFO] Reading data
+2020-09-24 17:43:23,872 [INFO] Lemmatizing and preparing data
+2020-09-24 17:43:34,359 [INFO] Training LR model
+2020-09-24 17:43:34,359 [INFO] --oaa 1419 --random_seed 17 --cache_file ./tmp1 -b 27 -f ./models/lr.vw 
+2020-09-24 17:43:34,383 [INFO] Iteration 0
+2020-09-24 17:44:06,114 [INFO] Iteration 1
+2020-09-24 17:45:02,842 [INFO] Finished model training
+2020-09-24 17:45:02,842 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 17:45:07,564 [INFO] LR holdout accuracy score is 0.79
+2020-09-24 17:45:07,785 [INFO] LR holdout F1 score is 0.78
+2020-09-24 18:06:31,354 [INFO] Training KNN model
+2020-09-24 18:06:31,844 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 18:06:41,398 [INFO] Fitting vectorizer
+2020-09-24 18:06:48,643 [INFO] Scoring 20% holdout sample
+2020-09-24 18:07:26,519 [INFO] Hold out sample accuracy 0.55
+2020-09-24 18:07:26,667 [INFO] Hold out sample f1 score 0.54
+2020-09-24 18:07:26,685 [INFO] Hold out sample sklearn accuracy 0.55
+2020-09-24 18:08:21,523 [INFO] Training KNN model
+2020-09-24 18:08:21,998 [INFO] Lemmatizing and preparing data for KNN model
+2020-09-24 18:08:32,192 [INFO] Fitting vectorizer
+2020-09-24 18:08:34,836 [INFO] Scoring 20% holdout sample
+2020-09-24 18:09:12,346 [INFO] Hold out sample accuracy 0.55
+2020-09-24 18:09:12,480 [INFO] Hold out sample f1 score 0.54
+2020-09-24 18:09:12,497 [INFO] Hold out sample sklearn accuracy 0.55
+2020-09-24 18:12:12,324 [INFO] Scoring KNN model
+2020-09-24 18:12:22,766 [INFO] Scoring KNN model
+2020-09-24 18:12:38,451 [INFO] Scoring KNN model
+2020-09-24 18:16:38,820 [INFO] Scoring KNN model
+2020-09-24 18:17:18,766 [INFO] Finished scoding test sample
+2020-09-24 18:23:12,717 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 18:23:15,426 [INFO] Finished scoring test sample with LR
+2020-09-24 18:24:09,462 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 18:24:32,397 [INFO] Calculating accuracy and F1 score on hold out data set
+2020-09-24 18:24:35,212 [INFO] Finished scoring test sample with LR

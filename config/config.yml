@@ -1,0 +1,14 @@
+data:
+   train_url: https://s3-eu-west-1.amazonaws.com/adthena-ds-test/trainSet.csv
+   test_url: https://s3-eu-west-1.amazonaws.com/adthena-ds-test/candidateTestSet.txt
+   train_local: ./data/trainSet.csv
+   test_local: ./data/candidateTestSet.csv
+   score_sim: ./data/pred_sim.csv
+   
+model:
+  sim_model: ./models/sim_model.pkl
+  sim_features: ./models/sim_features.npz
+  lr_model: ./models/lr_model.pkl
+
+
+
